@@ -20,9 +20,9 @@ function View () {
 
 inherits(View, Component)
 
-View.prototype._update = function (opts) {
-  return opts.foo !== this.foo
-    || opts.bar !== this.bar  
+View.prototype._update = function (state) {
+  return state.foo !== this.foo
+    || state.bar !== this.bar  
 }
 
 View.prototype._render = function (state) {
