@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "repository": "juliangruber/macrocomponent",
-  "description": "",
+  "description": "Convenience wrapper around nanocomponent, for the most common case",
   "scripts": {
     "test": "prettier-standard-formatter *.js && standard"
   },
