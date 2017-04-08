@@ -1,0 +1,18 @@
+{
+  "name": "macrocomponent",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/macrocomponent",
+  "description": "",
+  "scripts": {
+    "test": "prettier-standard-formatter *.js && standard"
+  },
+  "dependencies": {
+    "bel": "^4.6.0",
+    "nanomorph": "^4.0.3"
+  },
+  "devDependencies": {
+    "prettier-standard-formatter": "^0.222222222222222.333333333333333",
+    "standard": "^10.0.1"
+  }
+}
