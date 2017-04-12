@@ -1,6 +1,6 @@
 {
   "name": "macrocomponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "juliangruber/macrocomponent",
   "description": "Convenience wrapper around nanocomponent, for the most common case",
