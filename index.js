@@ -8,9 +8,9 @@ module.exports = (props, render) => {
   const c = new Component()
   c._update = function (opts) {
     for (var i = 0; i < props.length; i++) {
-      if (opts[props[i]] !== this[props[i]]) return false
+      if (opts[props[i]] !== this[props[i]]) return true
     }
-    return true
+    return false
   }
   c._render = function (state) {
     for (var i = 0; i < props.length; i++) {
