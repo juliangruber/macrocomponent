@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bel": "^4.6.0",
-    "nanocomponent": "^4.0.0",
+    "microcomponent": "^3.1.0",
     "nanomorph": "^4.0.3"
   },
   "devDependencies": {

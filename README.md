@@ -44,28 +44,14 @@ You can now do this:
 ```js
 const component = require('macrocomponent')
 
-const props = ['foo', 'bar']
-const view = component(props, state => `
+const view = component(() => `
   <p>
-    Hey ${state.foo}, how are you ${state.bar}ing?
+    Hey ${this.props.foo}, how are you ${this.props.bar}ing?
   </p>
 `)
 ```
 
 ..and it implements the same logic!
-
-I'm going to experiment with a bit more magic, so maybe this will eventually be possible (but it is not yet!):
-
-```js
-const component = require('macrocomponent')
-
-const view = component((foo, bar) => `
-  <p>
-    Hey ${foo}, how are you ${bar}ing?
-  </p>
-`)
-
-```
 
 ## Installation
 
@@ -75,7 +61,7 @@ $ npm install macrocomponent
 
 ## API
 
-### component(props, render)
+### component(render)
 
 ## License
 
